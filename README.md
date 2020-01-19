@@ -1,8 +1,8 @@
 # avrdude
 avrdude patches for USBASP as a PDI programmer
 
-Instructions:
-
+## Instructions:
+```
 1. Download AVRDUDE from official sources
    $ wget http://download.savannah.gnu.org/releases/avrdude/avrdude-6.3.tar.gz
 
@@ -19,5 +19,5 @@ Instructions:
    $ ./bootstrap
    $ ./configure
    $ make
-   
+```   
 To create a modified usbasp from a cheap usbasp china clone, look here http://szulat.blogspot.com/2012/08/atxmega-programmer-for-050.html
