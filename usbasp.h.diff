@@ -1,0 +1,22 @@
+23a24,33
+> /* USB identifiers */
+> #define	USBASP_SHARED_VID   0x16C0  /* VOTI */
+> #define	USBASP_SHARED_PID   0x05DC  /* Obdev's free shared PID */
+> 
+> #define	USBASP_OLD_VID      0x03EB  /* ATMEL */
+> #define	USBASP_OLD_PID	    0xC7B4  /* (unoffical) USBasp */
+> 
+> #define	USBASP_NIBOBEE_VID  0x16C0  /* VOTI */
+> #define	USBASP_NIBOBEE_PID  0x092F  /* NIBObee PID */
+> 
+41a52,55
+> #define USBASP_FUNC_PDI_CONNECT    17
+> #define USBASP_FUNC_PDI_DISCONNECT 18
+> #define USBASP_FUNC_PDI_READ       19
+> #define USBASP_FUNC_PDI_SEND       20
+44a59
+> #define USBASP_CAP_PDI    0x02
+52a68,70
+> 
+> #define USBASP_PDI_WAIT_BUSY   1
+> #define USBASP_PDI_MARK_BUSY   2
